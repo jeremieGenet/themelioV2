@@ -1,0 +1,4 @@
+TODO :
+
+    - Optimiser l'affichage de l'Erreur de taille de fichier trop grand
+    - Vérif de l'extension du fichier envoyé (dans PostValidator.php)

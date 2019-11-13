@@ -1,0 +1,22 @@
+{
+    "name": "jeremie/projetx",
+    "authors": [
+        {
+            "name": "jeremie",
+            "email": "jeremiegenetdev@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "altorouter/altorouter": "^2.0"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^4.3",
+        "filp/whoops": "^2.5",
+        "fzaninotto/faker": "^1.8"
+    }
+}
