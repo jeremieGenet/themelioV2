@@ -24,3 +24,7 @@ php -S localhost:8000 -t public
 - dev : fzaninotto/faker = librairie de fausses données
 - dev : var_dumper = librairie qui permet un affichage propre des tableaux, objets...
 - dev : whoops = librairie d'aide à l'affichage et au débug des erreurs
+
+# Lien gitHub pour téléchager le projet :
+
+https://github.com/jeremieGenet/themelioV2.git
