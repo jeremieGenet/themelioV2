@@ -10,12 +10,13 @@ Créer un module Biens (biens immobilier) pour le rendre sous forme d'une annonc
 - Créer une url Administration (accessible via '/admin' uniquement);
 - Administration d'une annonce (création, modification, et suppression d'une annonce)
 
-- Module categories (En cours...)
+- Module categories (En bonus...)
 
 
 # Pour lancer le projet :
 
 php -S localhost:8000 -t public
+
 
 # Outils installés :
 
@@ -24,6 +25,7 @@ php -S localhost:8000 -t public
 - dev : fzaninotto/faker = librairie de fausses données
 - dev : var_dumper = librairie qui permet un affichage propre des tableaux, objets...
 - dev : whoops = librairie d'aide à l'affichage et au débug des erreurs
+
 
 # Lien gitHub pour téléchager le projet :
 

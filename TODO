@@ -1,4 +1,10 @@
 TODO :
 
+    - Améliorer l'affichage HTML d'un bien. Ajouter les infos importante pour une annonce comme le loyer, nb de pièce, surface, localisation (ad/property/show.php)
+    - Améliorer l'affichage HTML des formulaire, faire deux colonnes pour ne pas être obligé de scroller (_form.php) de l'administration
+
     - Optimiser l'affichage de l'Erreur de taille de fichier trop grand
     - Vérif de l'extension du fichier envoyé (dans PostValidator.php)
+    - Vérif l'ensemble des champs du formulaire (classe crée, il reste juste à nommé les champs)
+
+    - Gros bug : Lorsqu'on clique sur la catégorie, n'affiche pas la liste des biens de la catégorie

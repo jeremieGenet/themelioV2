@@ -1,16 +1,14 @@
 <?php
-namespace App;
-
 /*
-    GESTION DE L'AUTHENTIFICATION
+    GERE L'ESPACE AUTHENTIFICATION D'UNE PERSONNE
 */
+namespace App;
 
 class Auth{
 
     public static function check()
     {
-        
-        // TODO : Ecrire le code
+
     }
 
 }

@@ -2,8 +2,8 @@
     "name": "jeremie/projetx",
     "authors": [
         {
-            "name": "jeremie",
-            "email": "jeremiegenetdev@gmail.com"
+            "name": "jamyjam52",
+            "email": "jamyjam82377@gmail.com"
         }
     ],
     "autoload":{
@@ -12,11 +12,12 @@
         }
     },
     "require": {
-        "altorouter/altorouter": "^2.0"
+        "altorouter/altorouter": "1.2.0",
+        "filp/whoops": "2.3.1",
+        "fzaninotto/faker": "1.8.0",
+        "vlucas/valitron": "1.4.5"
     },
     "require-dev": {
-        "symfony/var-dumper": "^4.3",
-        "filp/whoops": "^2.5",
-        "fzaninotto/faker": "^1.8"
+        "symfony/var-dumper": "^4.3"
     }
 }

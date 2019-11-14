@@ -17,6 +17,10 @@ class ComposerStaticInit1ef4ba7cb3491aab188eb45e5aa911f1
         array (
             'Whoops\\' => 7,
         ),
+        'V' => 
+        array (
+            'Valitron\\' => 9,
+        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Php72\\' => 23,
@@ -41,6 +45,10 @@ class ComposerStaticInit1ef4ba7cb3491aab188eb45e5aa911f1
         'Whoops\\' => 
         array (
             0 => __DIR__ . '/..' . '/filp/whoops/src/Whoops',
+        ),
+        'Valitron\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/vlucas/valitron/src/Valitron',
         ),
         'Symfony\\Polyfill\\Php72\\' => 
         array (
