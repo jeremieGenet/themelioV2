@@ -3,7 +3,7 @@
 use App\Connection;
 use App\Table\PropertyTable;
 
-$title = "Mon blog";
+$title = "Locations disponibles";
 $pdo = Connection::getPDO();
 [$properties, $pagination] = (new PropertyTable($pdo))->findPaginated(); 
 $link = $router->url('properties');
@@ -11,7 +11,7 @@ $link = $router->url('properties');
 
 
 <div class="container">
-    <h1 class="text-dark text-center mb-4">Mon blog !</h1>
+    <h1 class="text-dark text-center my-4">Nos locations disponibles</h1>
     <div class="row">
         <?php foreach($properties as $property): ?>
         <div class="col-md-3 mt-2">
