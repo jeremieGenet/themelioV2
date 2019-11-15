@@ -28,7 +28,7 @@ $router = new Router(dirname(__DIR__) . '/views');
 */
 $router->get('/', 'home.php', 'home');
 /*
-    BLOG
+    ANNONCES
 */
 $router->get('/annonce', 'ad/property/index.php', 'properties');
 $router->get('/annonce/categorie/[*:slug]-[i:id]', 'ad/category/show.php', 'category');
