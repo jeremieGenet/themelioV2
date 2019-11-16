@@ -13,7 +13,7 @@ $pdo->exec('TRUNCATE TABLE property');
 $pdo->exec('TRUNCATE TABLE category');
 $pdo->exec('SET FOREIGN_KEY_CHECKS = 1');
 
-/*
+
 $propertiesId = [];
 $categories = [];
 for($i=0; $i<50; $i++){
@@ -50,6 +50,6 @@ foreach($propertiesId as $propertyId){
         $pdo->exec("INSERT INTO property_category SET property_id = '$propertyId', category_id = '$category' ");
     }
 }
-*/
+
   
 

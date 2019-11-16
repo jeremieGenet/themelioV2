@@ -33,7 +33,7 @@ class PaginatedQuery{
             $currentPage = $this->getCurrentPage(); 
             $pages = $this->getPages();
             if($currentPage > $pages){
-                throw new \Exception('Cette page n\'existe pas !');
+                throw new \Exception('Cette page n\'existe pas ! Votre base de donnée est peut-être vide, dans ce cas il faut la remplir.');
             }
 
             $offset = $this->perPage * ($currentPage - 1);
